@@ -59,7 +59,7 @@ final_amount = totalprice + gst
 
 # Print bill if items were added
 if pricelist:
-    print("\n------------------ Supermarket ------------------")
+    print("\n------------------ Supermarket Bill ------------------")
     print(f"Customer Name: {name}")
     print(f"Phone Number: {phone}")
     print(f"Date & Time: {datetime.now()}")
