@@ -1,6 +1,6 @@
 from datetime import datetime
 
-print("----------------Welcome to Supermarket----------------")
+print("----------------Welcome to Our Supermarket----------------")
 name = input("Enter your name: ")
 phone=input("Enter your Phone Number: ")
 
@@ -60,7 +60,6 @@ final_amount = totalprice + gst
 # Print bill if items were added
 if pricelist:
     print("\n------------------ Supermarket ------------------")
-    print(23*" ","uravakonda")
     print(f"Customer Name: {name}")
     print(f"Phone Number: {phone}")
     print(f"Date & Time: {datetime.now()}")
